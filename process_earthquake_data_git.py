@@ -22,7 +22,7 @@ def process_earthquake_data():
 
         features = data["features"]
         date = today_date.strftime("%Y_%m_%d")
-        filename = # Update this or use a config file
+        filename = f"FAKEDRIVE:\\directory\\pathway\\filename.csv" # Update this or use a config file
 
         for feature in features:
             properties = feature["properties"]
